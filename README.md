@@ -105,7 +105,7 @@ You can use `--tag` more than once to include more tags to be run (any matching 
 If an exclusive tag, e.g. `~slow`, is used alone, all tests except those tagged slow will be run.
 If an exclusive tag is used in addition to any inclusive tags, then the exclusive tag will just filter those included.
 
-Note that when using `rake`, you need to wrap Minitest's options like this: `rake test TESTOPTS='--tag js'`.
+Note that when using `rake`, you need to wrap Minitest's options like this: `rake test TESTOPTS='--tag=js'`.
 
 ## Installation
 
